@@ -2,10 +2,17 @@
   "name": "try-yarn",
   "version": "0.1.0",
   "description": "Try Yarn",
-  "main": "src/index.js",
+  "main": "src/js/index.js",
   "repository": "https://github.com/ianhomer/try-yarn.git",
   "author": "Ian Homer <ian.homer@gmail.com>",
   "license": "MIT",
+  "config": {
+    "my-param": "my-value"
+  },
+  "scripts": {
+    "hello": "src/scripts/hello",
+    "test": "jest"
+  },
   "dependencies": {
     "simple-git": "^1.92.0"
   }
