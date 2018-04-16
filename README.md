@@ -15,6 +15,9 @@ Run
 Which does
 
     node src/js/index.js
+
+Or run hello
+
     yarn hello
 
 # More
