@@ -1,5 +1,15 @@
 # Try Yarn
 
-Install
+Pre-requisites
 
     brew install yarn
+
+Install
+
+    yarn install
+
+Run
+
+    node src/index.js
+
+
