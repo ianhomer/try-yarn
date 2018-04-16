@@ -1,0 +1,12 @@
+{
+  "name": "try-yarn",
+  "version": "0.1.0",
+  "description": "Try Yarn",
+  "main": "src/index.js",
+  "repository": "https://github.com/ianhomer/try-yarn.git",
+  "author": "Ian Homer <ian.homer@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
