@@ -1,7 +1,15 @@
-# IDEA
+# IDEs
 
-.idea/workspace.xml
+.idea
 
 # Node
 
 node_modules
+
+# Yarn (not zero installs)
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
+
