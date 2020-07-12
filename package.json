@@ -10,7 +10,7 @@
     "my-param": "my-value"
   },
   "scripts": {
-    "hello": "node src/hello"
+    "hello": "node index"
   },
   "dependencies": {
     "simple-git": "^1.92.0"
