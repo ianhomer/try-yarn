@@ -10,8 +10,7 @@
     "my-param": "my-value"
   },
   "scripts": {
-    "hello": "src/scripts/hello",
-    "test": "jest"
+    "hello": "node src/hello"
   },
   "dependencies": {
     "simple-git": "^1.92.0"

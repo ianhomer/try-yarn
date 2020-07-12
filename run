@@ -1,3 +1,0 @@
-#!/bin/bash
-
-node src/js/index.js

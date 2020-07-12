@@ -1,26 +1,11 @@
 # Try Yarn
 
-Pre-requisites
+Install and run
 
-    brew install yarn
-
-Install
-
-    yarn install
-
-Run
-
-    ./run
-
-Which does
-
-    node src/js/index.js
-
-Or run hello
-
+    yarn
     yarn hello
 
-# More
+## More
 
 You can also do
 
