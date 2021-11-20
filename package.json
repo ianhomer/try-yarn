@@ -10,9 +10,10 @@
     "my-param": "my-value"
   },
   "scripts": {
-    "hello": "node index"
+    "hello": "node index",
+    "update": "yarn up '*'"
   },
   "dependencies": {
-    "simple-git": "^1.92.0"
+    "simple-git": "^2.46.0"
   }
 }
