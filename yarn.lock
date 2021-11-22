@@ -42,7 +42,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:^2.46.0":
+"simple-git@npm:^2.47.0":
   version: 2.47.0
   resolution: "simple-git@npm:2.47.0"
   dependencies:
@@ -57,6 +57,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "try-yarn@workspace:."
   dependencies:
-    simple-git: ^2.46.0
+    simple-git: ^2.47.0
   languageName: unknown
   linkType: soft
