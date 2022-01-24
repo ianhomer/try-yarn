@@ -21,7 +21,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:^4.1.1, debug@npm:^4.3.2":
+"debug@npm:^4.1.1":
   version: 4.3.2
   resolution: "debug@npm:4.3.2"
   dependencies:
@@ -35,6 +35,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"debug@npm:^4.3.3":
+  version: 4.3.3
+  resolution: "debug@npm:4.3.3"
+  dependencies:
+    ms: 2.1.2
+  peerDependencies:
+    supports-color: "*"
+  peerDependenciesMeta:
+    supports-color:
+      optional: true
+  checksum: 1bceffaa69207300c49f868643a4f637a20dd292fe005fb0d5a625957ee1fe7a4e65c5f4c6f65ce2b1ef30087cf4e327207d4e0554362e4c44574f85328e3b71
+  languageName: node
+  linkType: hard
+
 "ms@npm:2.1.2":
   version: 2.1.2
   resolution: "ms@npm:2.1.2"
@@ -42,14 +56,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:^2.48.0":
-  version: 2.48.0
-  resolution: "simple-git@npm:2.48.0"
+"simple-git@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "simple-git@npm:3.1.0"
   dependencies:
     "@kwsites/file-exists": ^1.1.1
     "@kwsites/promise-deferred": ^1.1.1
-    debug: ^4.3.2
-  checksum: ff356edf846c123c58718f28332ab8557d1afb9a7025131f2b0328bc6ddd306cdee444b5f9f205b4110a14549961d631125c88da90d3ad23a8ccf6cd2a19bb44
+    debug: ^4.3.3
+  checksum: 8fd9c02f9d8b2a7d31dd02da3bc00c3ca955f53d05dca6776e4eee27687d11df5fabbac6d62e70e3ec5a05cb7901d2066f6f12289600632598ffbb5eac7b3a6b
   languageName: node
   linkType: hard
 
@@ -57,6 +71,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "try-yarn@workspace:."
   dependencies:
-    simple-git: ^2.48.0
+    simple-git: ^3.1.0
   languageName: unknown
   linkType: soft
