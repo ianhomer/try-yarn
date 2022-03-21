@@ -14,6 +14,6 @@
     "update": "yarn up '*'"
   },
   "dependencies": {
-    "simple-git": "^3.3.0"
+    "simple-git": "^3.4.0"
   }
 }
