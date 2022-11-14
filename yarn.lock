@@ -56,14 +56,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:^3.14.1":
-  version: 3.14.1
-  resolution: "simple-git@npm:3.14.1"
+"simple-git@npm:^3.15.0":
+  version: 3.15.0
+  resolution: "simple-git@npm:3.15.0"
   dependencies:
     "@kwsites/file-exists": ^1.1.1
     "@kwsites/promise-deferred": ^1.1.1
     debug: ^4.3.4
-  checksum: 7f5ab6e0be2276009359ac482faac69148613383d910b5b78fa81b5709d5f68cd2f78dd14c9c64966b0d59f0b93d84e36c7748c433d70b8d9cd1085aa46ad742
+  checksum: 9cd5d93f4399b19bf22685f3d2dd5d1aac81d6a0d9c8b33c4f4a741bd497785cee4a566b31350c41c898b1345737b6e22fd917b26ec97b5a4d537ef1e1176b46
   languageName: node
   linkType: hard
 
@@ -71,6 +71,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "try-yarn@workspace:."
   dependencies:
-    simple-git: ^3.14.1
+    simple-git: ^3.15.0
   languageName: unknown
   linkType: soft
